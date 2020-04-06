@@ -23,10 +23,7 @@ Logout = () =>{
 }
 
 RedirectToStreamingPage = () =>{
-  var userName = this.props.location.state.userName;
-  this.props.history.push({
-    pathname: 'http://localhost:5000/',
-})
+  // open a browser window for http://localhost:5000/
 }
 
 checkMimeType=(event)=>{
